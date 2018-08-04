@@ -1,6 +1,10 @@
 <h1>Edit Your Post</h1>
 
+<<<<<<< HEAD
 <form method="post" action="/posts/<%=@post.id%>">
+=======
+<form method="post" action="/posts/<%=@post.id%>/edit">
+>>>>>>> 978cdd88540c0ce53d3c02494233bcf2ef4c15ca
   <input id="hidden" type="hidden" name="_method" value="patch">
   <label for="name">Title:</label>
   <input type="text" id="name" name="name" value="<%=@post.name%>">
